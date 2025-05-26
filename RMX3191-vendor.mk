@@ -61,6 +61,3 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib64/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib64/libdpframework.so
     
 
-PRODUCT_PACKAGES += \
-    EngineerMode 
-
