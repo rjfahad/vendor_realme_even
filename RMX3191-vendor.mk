@@ -24,10 +24,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko \
     vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko \
     vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_drv.ko \
-    vendor/realme/RMX3191/proprietary/product/vendor_overlay/29/etc/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/audio_effects.xml \
-    vendor/realme/RMX3191/proprietary/product/vendor_overlay/29/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracmobile.config \
-    vendor/realme/RMX3191/proprietary/product/vendor_overlay/29/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libDiracAPI_SHARED.so \
-    vendor/realme/RMX3191/proprietary/product/vendor_overlay/29/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libdirac.so \
+    vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/etc/audio_effects.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/audio_effects.xml \
+    vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/diracmobile.config \
+    vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libDiracAPI_SHARED.so \
+    vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib/libdiracapwrapper.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/libdiracapwrapper.so \
+    vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libdirac.so \
+    vendor/realme/RMX3191/proprietary/product/vendor_overlay/30/lib/soundfx/libdiraceffect.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/soundfx/libdiraceffect.so \
     vendor/realme/RMX3191/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/realme/RMX3191/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/realme/RMX3191/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
