@@ -15,6 +15,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/realme/RMX3191/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/realme/RMX3191/proprietary/lib/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvsim-adaptor-client.so \
+    vendor/realme/RMX3191/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
+    vendor/realme/RMX3191/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/realme/RMX3191/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
     vendor/realme/RMX3191/proprietary/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
     vendor/realme/RMX3191/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
@@ -32,6 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/realme/RMX3191/proprietary/lib64/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvsim-adaptor-client.so \
     vendor/realme/RMX3191/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
+    vendor/realme/RMX3191/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
+    vendor/realme/RMX3191/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/realme/RMX3191/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/realme/RMX3191/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/realme/RMX3191/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
