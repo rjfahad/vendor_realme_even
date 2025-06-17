@@ -994,6 +994,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/libakm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakm.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/libalsautils-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils-mtk.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_distortion_correction.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_bokeh_api.so \
@@ -1503,6 +1504,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/libgwsd-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgwsd-ril.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkares.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.eventcallback.so \
@@ -1676,9 +1678,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so
 
 PRODUCT_PACKAGES += \
-    libakm \
-    libcam3a_imem \
-    libgwsd-ril \
     vendor.mediatek.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     android.hardware.wifi.hostapd \
