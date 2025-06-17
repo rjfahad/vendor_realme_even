@@ -273,6 +273,22 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/bin/libccu_even_shengtai_front_ov8856.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_even_shengtai_front_ov8856.pm \
     vendor/realme/RMX3191/proprietary/vendor/bin/libccu_even_shengtai_macro_ov02b10.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_even_shengtai_macro_ov02b10.dm \
     vendor/realme/RMX3191/proprietary/vendor/bin/libccu_even_shengtai_macro_ov02b10.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_even_shengtai_macro_ov02b10.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_hlt_front_s5k4h7.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_hlt_front_s5k4h7.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_hlt_front_s5k4h7.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_hlt_front_s5k4h7.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_shengtai_macro_ov02b10.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_shengtai_macro_ov02b10.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_shengtai_macro_ov02b10.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_shengtai_macro_ov02b10.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_shengtai_wide_ov8856.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_shengtai_wide_ov8856.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_shengtai_wide_ov8856.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_shengtai_wide_ov8856.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_truly2_main_s5kgm1sp.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_truly2_main_s5kgm1sp.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_truly2_main_s5kgm1sp.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_truly2_main_s5kgm1sp.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_truly_main_s5kgm1sp.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_truly_main_s5kgm1sp.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascala_truly_main_s5kgm1sp.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascala_truly_main_s5kgm1sp.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascali_hlt_depth_gc02m1b.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascali_hlt_depth_gc02m1b.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascali_hlt_depth_gc02m1b.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascali_hlt_depth_gc02m1b.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascali_hlt_front_s5k4h7.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascali_hlt_front_s5k4h7.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascali_hlt_front_s5k4h7.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascali_hlt_front_s5k4h7.pm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascali_qtech_main_ov13b10.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascali_qtech_main_ov13b10.dm \
+    vendor/realme/RMX3191/proprietary/vendor/bin/libccu_pascali_qtech_main_ov13b10.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_pascali_qtech_main_ov13b10.pm \
     vendor/realme/RMX3191/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/realme/RMX3191/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/realme/RMX3191/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
@@ -922,6 +938,22 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib/even_shengtai_front_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shengtai_front_ov8856_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/even_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shengtai_macro_ov02b10_IdxMgr.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/even_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_hlt_front_s5k4h7_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_hlt_front_s5k4h7_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_hlt_front_s5k4h7_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_hlt_front_s5k4h7_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_shengtai_macro_ov02b10_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_shengtai_wide_ov8856_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_shengtai_wide_ov8856_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_shengtai_wide_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_shengtai_wide_ov8856_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_truly2_main_s5kgm1sp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_truly2_main_s5kgm1sp_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_truly2_main_s5kgm1sp_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_truly2_main_s5kgm1sp_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_truly_main_s5kgm1sp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_truly_main_s5kgm1sp_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascala_truly_main_s5kgm1sp_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascala_truly_main_s5kgm1sp_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascali_hlt_depth_gc02m1b_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_hlt_depth_gc02m1b_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascali_hlt_depth_gc02m1b_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_hlt_depth_gc02m1b_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascali_hlt_front_s5k4h7_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_hlt_front_s5k4h7_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascali_hlt_front_s5k4h7_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_hlt_front_s5k4h7_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascali_qtech_main_ov13b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_qtech_main_ov13b10_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/pascali_qtech_main_ov13b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/pascali_qtech_main_ov13b10_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
@@ -1271,6 +1303,22 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib64/even_shengtai_front_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shengtai_front_ov8856_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/even_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shengtai_macro_ov02b10_IdxMgr.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/even_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_hlt_front_s5k4h7_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_hlt_front_s5k4h7_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_hlt_front_s5k4h7_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_hlt_front_s5k4h7_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_shengtai_macro_ov02b10_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_shengtai_wide_ov8856_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_shengtai_wide_ov8856_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_shengtai_wide_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_shengtai_wide_ov8856_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_truly2_main_s5kgm1sp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_truly2_main_s5kgm1sp_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_truly2_main_s5kgm1sp_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_truly2_main_s5kgm1sp_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_truly_main_s5kgm1sp_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_truly_main_s5kgm1sp_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascala_truly_main_s5kgm1sp_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascala_truly_main_s5kgm1sp_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascali_hlt_depth_gc02m1b_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascali_hlt_depth_gc02m1b_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascali_hlt_depth_gc02m1b_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascali_hlt_depth_gc02m1b_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascali_hlt_front_s5k4h7_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascali_hlt_front_s5k4h7_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascali_hlt_front_s5k4h7_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascali_hlt_front_s5k4h7_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascali_qtech_main_ov13b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascali_qtech_main_ov13b10_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/pascali_qtech_main_ov13b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pascali_qtech_main_ov13b10_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
