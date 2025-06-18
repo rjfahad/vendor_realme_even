@@ -5,6 +5,7 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX3191
 
+
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/realme/RMX3191/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
