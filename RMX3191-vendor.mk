@@ -16,7 +16,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/realme/RMX3191/proprietary/lib/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvsim-adaptor-client.so \
     vendor/realme/RMX3191/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
-    vendor/realme/RMX3191/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/realme/RMX3191/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
     vendor/realme/RMX3191/proprietary/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
     vendor/realme/RMX3191/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
