@@ -1,0 +1,43 @@
+
+# InitEnv
+
+# Build.java
+ro.build.id=SP1A.210812.016
+ro.product.manufacturer=realme
+ro.product.brand=realme
+ro.product.model=RMX3191
+ro.product.name=RMX3191
+ro.product.device=RMX3191
+ro.product.first_api_level=30
+ro.build.version.incremental=R.1830654+77f55
+ro.build.version.release=13
+ro.build.fingerprint=realme/RMX3191/RMX3191:13/SP1A.210812.016/R.1830654+77f55:user/release-keys
+ro.odm.build.fingerprint=realme/RMX3191/RMX3191:13/SP1A.210812.016/R.1830654+77f55:user/release-keys
+ro.odm.build.version.incremental=R.1830654+77f55
+ro.product.odm.brand=realme
+ro.product.odm.manufacturer=realme
+ro.product.odm.model=RMX3191
+ro.product.odm.device=RMX3191
+ro.product.odm.name=RMX3191
+ro.odm.build.date=Fri Jun 21 16:52:45 CST 2024
+ro.odm.build.date.utc=1718959965
+ro.bootimage.build.fingerprint=realme/RMX3191/RMX3191:13/SP1A.210812.016/R.1830654+77f55:user/release-keys
+ro.bootimage.build.version.incremental=R.1830654+77f55
+ro.product.bootimage.brand=realme
+ro.product.bootimage.manufacturer=realme
+ro.product.bootimage.model=RMX3191
+ro.product.bootimage.device=RMX3191
+ro.product.bootimage.name=RMX3191
+ro.bootimage.build.date=Fri Jun 21 16:52:45 CST 2024
+ro.bootimage.build.date.utc=1718959965
+ro.vendor.build.fingerprint=realme/RMX3191/RMX3191:13/SP1A.210812.016/R.1830654+77f55:user/release-keys
+ro.vendor.build.version.incremental=R.1830654+77f55
+ro.product.vendor.brand=realme
+ro.product.vendor.manufacturer=realme
+ro.product.vendor.model=RMX3191
+ro.product.vendor.device=RMX3191
+ro.product.vendor.name=RMX3191
+ro.vendor.build.date=Fri Jun 21 16:52:45 CST 2024
+ro.vendor.build.date.utc=1718959965
+
+# OPPO
