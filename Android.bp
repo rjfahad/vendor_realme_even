@@ -4,6 +4,9 @@
 
 soong_namespace {
 	imports: [
+		"device/realme/RMX3191",
+		"hardware/mediatek",
+		"hardware/mediatek/libmtkperf_client"
 	],
 }
 
