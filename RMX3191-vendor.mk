@@ -145,6 +145,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/odm/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G3.so \
     vendor/realme/RMX3191/proprietary/odm/lib/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G5.so \
     vendor/realme/RMX3191/proprietary/odm/lib/libgf_hal_G6.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G6.so \
+    vendor/realme/RMX3191/proprietary/odm/etc/camera/engineer_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/engineer_camera_config \
+    vendor/realme/RMX3191/proprietary/odm/etc/camera/mtCalibrationCfg.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mtCalibrationCfg.xml \
+    vendor/realme/RMX3191/proprietary/odm/etc/camera/mtInputparam.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mtInputparam.xml \
+    vendor/realme/RMX3191/proprietary/odm/etc/camera/mwCalibrationCfg.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mwCalibrationCfg.xml \
+    vendor/realme/RMX3191/proprietary/odm/etc/camera/mwInputparam.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mwInputparam.xml \
+    vendor/realme/RMX3191/proprietary/odm/etc/camera/stereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/stereoParams.bin \
     vendor/realme/RMX3191/proprietary/odm/lib/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib/libormshalclient.so \
     vendor/realme/RMX3191/proprietary/odm/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_ODM)/lib/libsl_fp_impl.so \
     vendor/realme/RMX3191/proprietary/odm/lib/sensors.virtual.so:$(TARGET_COPY_OUT_ODM)/lib/sensors.virtual.so \
@@ -924,6 +930,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib/even_shengtai_front_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shengtai_front_ov8856_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/even_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shengtai_macro_ov02b10_IdxMgr.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/even_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/even_shinetech_main_s5kjn103_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shinetech_main_s5kjn103_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/even_shinetech_main_s5kjn103_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/even_shinetech_main_s5kjn103_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/evenc_shengtai_front_ov8856_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/evenc_shengtai_front_ov8856_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/evenc_shengtai_front_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/evenc_shengtai_front_ov8856_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/evenc_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/evenc_shengtai_macro_ov02b10_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/evenc_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/evenc_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/evenc_shinetech_depth_gc02m1b_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/evenc_shinetech_depth_gc02m1b_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib/evenc_shinetech_depth_gc02m1b_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/evenc_shinetech_depth_gc02m1b_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
@@ -1281,6 +1295,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib64/even_shengtai_front_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shengtai_front_ov8856_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/even_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shengtai_macro_ov02b10_IdxMgr.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/even_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/even_shinetech_main_s5kjn103_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shinetech_main_s5kjn103_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/even_shinetech_main_s5kjn103_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/even_shinetech_main_s5kjn103_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/evenc_shengtai_front_ov8856_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/evenc_shengtai_front_ov8856_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/evenc_shengtai_front_ov8856_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/evenc_shengtai_front_ov8856_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/evenc_shengtai_macro_ov02b10_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/evenc_shengtai_macro_ov02b10_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/evenc_shengtai_macro_ov02b10_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/evenc_shengtai_macro_ov02b10_tuning.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/evenc_shinetech_depth_gc02m1b_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/evenc_shinetech_depth_gc02m1b_IdxMgr.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/evenc_shinetech_depth_gc02m1b_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/evenc_shinetech_depth_gc02m1b_tuning.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
@@ -1603,6 +1625,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3191/proprietary/vendor/lib64/liboplus_audio_config.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboplus_audio_config.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/liboppo_aisd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_aisd.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/liboppo_arcSoftBokehEngine_new.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_arcSoftBokehEngine_new.so \
+    vendor/realme/RMX3191/proprietary/vendor/lib64/liboppo_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppo_platform_hwi.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
     vendor/realme/RMX3191/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
