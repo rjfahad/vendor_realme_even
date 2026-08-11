@@ -4,6 +4,41 @@
 
 soong_namespace {
 }
+
+cc_prebuilt_library_shared {
+	name: "libakm",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libakm.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgwsd-ril",
+	owner: "realme",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libgwsd-ril.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
 prebuilt_etc_xml {
 	name: "vendor.mediatek.hardware.gpu@1.0-service",
 	owner: "realme",
@@ -35,15 +70,6 @@ prebuilt_etc_xml {
 	name: "manifest",
 	owner: "realme",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

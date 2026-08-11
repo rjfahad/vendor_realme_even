@@ -53,6 +53,20 @@ on post-fs-data
     chmod 0660 /sys/bus/platform/devices/fpc_interrupt/irq_unexpected
     #endif /* OPLUS_FEATURE_FINGERPRINT */
 
+    #Zhaoliang.Shi@WT.BSP.Fingerprint , 2021/03/03, modify for fpc in TRUSTONIC
+    chown system system /sys/bus/platform/devices/fpc_fp/clk_enable
+    chown system system /sys/bus/platform/devices/fpc_fp/wakelock_enable
+    chown system system /sys/bus/platform/devices/fpc_fp/irq
+    chown system system /sys/bus/platform/devices/fpc_fp/irq_enable
+    chown system system /sys/bus/platform/devices/fpc_fp/regulator_enable
+    chown system system /sys/bus/platform/devices/fpc_fp/irq_unexpected
+    chmod 0200 /sys/bus/platform/devices/fpc_fp/irq_enable
+    chmod 0200 /sys/bus/platform/devices/fpc_fp/clk_enable
+    chmod 0200 /sys/bus/platform/devices/fpc_fp/wakelock_enable
+    chmod 0600 /sys/bus/platform/devices/fpc_fp/irq
+    chmod 0200 /sys/bus/platform/devices/fpc_fp/regulator_enable
+    chmod 0200 /sys/bus/platform/devices/fpc_fp/irq_unexpected
+
     #ifdef OPLUS_FEATURE_FINGERPRINT
     #zhoubo@BSP.Biometrics.Fingerprint, 2020/09/10, modify for fpc in QCOM (SM6125R Homer)
     chown system system /sys/bus/platform/devices/soc:fpc_fpc1020/irq
