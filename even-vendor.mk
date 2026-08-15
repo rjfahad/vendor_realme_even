@@ -1659,6 +1659,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/even/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
     vendor/realme/even/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/realme/even/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
+    vendor/realme/even/proprietary/vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.wifi.hostapd@2.0.so \
     vendor/realme/even/proprietary/vendor/lib64/android.hardware.wifi@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.4.so \
     vendor/realme/even/proprietary/vendor/lib/android.hardware.wifi@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.wifi@1.4.so \
     vendor/realme/even/proprietary/vendor/lib64/libwifi-system-iface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-system-iface.so \
@@ -1732,7 +1733,6 @@ PRODUCT_PACKAGES += \
     libgwsd-ril \
     vendor.mediatek.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
-    android.hardware.wifi.hostapd \
     manifest \
     oplus_appradio_device_manifest \
     oplus_radio_device_manifest
