@@ -1,1 +1,2 @@
-keys/
+# Signing keys are tracked intentionally (needed by APEX/AVB on build servers)
+# keys/
