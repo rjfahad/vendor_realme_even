@@ -2,6 +2,9 @@
 <AudioParam>
 	<ParamTree>
 		<Param path="" param_id="0"/>
+		<Param path="Speaker" param_id="0"/>
+		<Param path="Earpiece" param_id="0"/>
+		<Param path="Headset" param_id="0"/>
 		<Param path="USBAudio" param_id="0"/>
 	</ParamTree>
 	<ParamUnitPool>
