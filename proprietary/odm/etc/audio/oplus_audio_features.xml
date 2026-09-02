@@ -4,5 +4,5 @@
 	<feature name="OPLUS_RECORD_MODE_SWITCH" config="NOTSUPPORT"/>
 	<feature name="OPLUS_FM_SUPPORT" config="true"/>
 	<feature name="OPLUS_MMI_MAINHL_ID" config="4"/>
-	<feature name="OPLUS_SMARTPA_CALI_SUPPORT" config="NO"/>
+	<feature name="OPLUS_SMARTPA_CALI_SUPPORT" config="YES"/>
 </audio_config>
