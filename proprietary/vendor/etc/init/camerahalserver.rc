@@ -4,4 +4,5 @@ service camerahalserver /vendor/bin/hw/camerahalserver
     group audio camera input drmrpc sdcard_rw system media graphics
     ioprio rt 4
     capabilities SYS_NICE
+    env LD_PRELOAD /apex/com.android.vndk.v33/lib64/libutils.so
     task_profiles CameraServiceCapacity MaxPerformance
